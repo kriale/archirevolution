@@ -146,7 +146,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="c07da5e1-fcba-44b1-be39-059df09be3f7"
-      targetConnections="b8c78336-8bcd-4a8d-9852-d719cd0f5acd 60b7d484-0005-4db4-a9c3-81d10a6ce38e 5098b6ad-5a45-4353-aa0d-f950ddf20853"
+      targetConnections="b8c78336-8bcd-4a8d-9852-d719cd0f5acd 60b7d484-0005-4db4-a9c3-81d10a6ce38e 5098b6ad-5a45-4353-aa0d-f950ddf20853 d1681932-b6a5-437f-8c3d-286053b426bd 561ce3a3-3168-4c7d-b17a-0d97006ebb43 bc21b8f7-91fd-4808-870b-06900a846534"
       fillColor="#ff80ff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -269,9 +269,75 @@
       textAlignment="1"
       content="Здесь добавить свои микросервисы аналогично, связав через Thtift API">
     <bounds
-        x="504"
-        y="623"
+        x="636"
+        y="492"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="e3da1467-0788-47d5-858a-d261b32e8dc3"
+      fillColor="#008000">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="d1681932-b6a5-437f-8c3d-286053b426bd"
+        source="e3da1467-0788-47d5-858a-d261b32e8dc3"
+        target="c07da5e1-fcba-44b1-be39-059df09be3f7">
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_24228c56-eb48-48a1-9f50-011c0529d6f5.xml#24228c56-eb48-48a1-9f50-011c0529d6f5"/>
+    </sourceConnections>
+    <bounds
+        x="480"
+        y="648"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:TechnologyService"
+        href="TechnologyService_b760033a-439a-420d-a082-cc1be8036dbb.xml#b760033a-439a-420d-a082-cc1be8036dbb"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="2bcd81c5-1f98-4f94-919c-6c540db0d378"
+      fillColor="#008000">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="561ce3a3-3168-4c7d-b17a-0d97006ebb43"
+        source="2bcd81c5-1f98-4f94-919c-6c540db0d378"
+        target="c07da5e1-fcba-44b1-be39-059df09be3f7">
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_d27b4ca2-2073-4012-9525-368a871e7f4a.xml#d27b4ca2-2073-4012-9525-368a871e7f4a"/>
+    </sourceConnections>
+    <bounds
+        x="636"
+        y="648"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:TechnologyService"
+        href="TechnologyService_c0c8a252-7af6-4afc-a9c7-61604005a3a0.xml#c0c8a252-7af6-4afc-a9c7-61604005a3a0"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="f78bca18-b2fc-413f-bc59-036e1a511994"
+      fillColor="#008000">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="bc21b8f7-91fd-4808-870b-06900a846534"
+        source="f78bca18-b2fc-413f-bc59-036e1a511994"
+        target="c07da5e1-fcba-44b1-be39-059df09be3f7">
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_c186de6e-c85c-4145-8aaf-aeaa3a20211d.xml#c186de6e-c85c-4145-8aaf-aeaa3a20211d"/>
+    </sourceConnections>
+    <bounds
+        x="792"
+        y="648"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:TechnologyService"
+        href="TechnologyService_2cf0c748-483a-4a7f-bc29-9ab35c385c73.xml#2cf0c748-483a-4a7f-bc29-9ab35c385c73"/>
   </children>
 </archimate:ArchimateDiagramModel>
